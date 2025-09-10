@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 
 const Loader = () => {
   return (
-    <div className="flex justify-start flex-col items-center min-h-screen bg-gray-900">
+    <div className="flex justify-start gap-4 flex-col items-center min-h-screen bg-gray-900 pt-[50px]">
            <motion.h2
-        className="text-white text-[50px] font-semibold"
+        className="text-white md:text-[50px] text-2xl font-semibold"
         initial={{ opacity: 0, y: -10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ repeat: Infinity, type:"keyframes", duration: 1.2 }}

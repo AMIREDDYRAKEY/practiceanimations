@@ -5,9 +5,10 @@ import Base from './components/Base';
 import Home from './components/Home';
 import Toppings from './components/Toppings';
 import Order from './components/Order';
-import PizzaBox from './components/PizzaBox';
-import Contact from './components/Contact';
 import Loader from './components/Loader';
+import Contact from './components/Contact';
+ import Cards from './components/Cards';
+import Hero from './components/Hero';
 const App = () => {
   const [pizza, setPizza] = useState({ base: '', toppings: [] });
 
@@ -36,7 +37,10 @@ const App = () => {
         
       </Routes>
       <div>
-        <PizzaBox/>
+        <Hero/>
+      </div>
+      <div>
+        <Cards/>
       </div>
       <div>
         <Loader/>

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-900 mt-[-300px]">
       <motion.div
-        className="bg-gray-800 p-8 rounded-2xl shadow-lg w-full max-w-md text-white"
+        className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[97%] max-w-md text-white"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
