@@ -3,9 +3,27 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-900 ">
-      <motion.div
-        className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[97%] max-w-md text-white"
+    <div className="md:flex md:flex-row flex flex-col gap-5 justify-center p-4 items-center min-h-screen bg-gray-900 mt-10 ">
+     <div>
+         <motion.div
+        className="text-5xl font-bold text-white"
+        initial={{ opacity: 0, x:100 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 2 ,delay:0.5}}
+      >
+        Contact Us
+      </motion.div>
+       <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.5 }}
+              className="text-md md:text-md w-[70%] text-gray-300 mb-8  max-w-2xl"
+            >
+              We help you create modern web experiences with animations, interactivity, and simplicity.
+            </motion.p>
+            </div>
+       <motion.div
+        className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[100%] max-w-md text-white"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
