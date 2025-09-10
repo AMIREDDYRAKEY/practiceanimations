@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Contact = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-900 mt-[-300px]">
+    <div className="flex justify-center items-center min-h-screen bg-gray-900 ">
       <motion.div
         className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[97%] max-w-md text-white"
         initial={{ opacity: 0, y: 50 }}
