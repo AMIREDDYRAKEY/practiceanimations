@@ -19,7 +19,7 @@ const Borderanimate = () => {
           whileHover={{ rotateY: 180 }}
           transition={{ duration: 1, ease: "linear" }}
         >
-          Box {box.id}
+           {box.id}
         </motion.div>
       ))}
     </div>
