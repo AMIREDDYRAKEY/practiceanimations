@@ -25,7 +25,7 @@ const Contact = () => {
        <motion.div
         className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[100%] max-w-md text-white"
         initial={{ opacity: 1, X: 50 }}
-        animate={{ opacity: 1, x:[0,10,0]}}
+        animate={{ opacity: 1, y:[0,10,0]}}
         transition={{ duration: 3, ease: "linear" ,repeat:Infinity}}
       >
         <motion.h2

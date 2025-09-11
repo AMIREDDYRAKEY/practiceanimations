@@ -10,11 +10,11 @@ const Borderanimate = () => {
   ];
 
   return (
-    <div className="grid  grid-cols-3  ml-[100px] gap-[10px] items-center mt-10  bg-gray-900">
+    <div className="md:grid  md:grid-cols-3 grid grid-cols-1 ml-5  md:ml-[100px] gap-[10px] items-center mt-10  bg-gray-900">
       {boxes.map((box) => (
         <motion.div
   key={box.id}
-  className={`md:w-50 w-60 h-40 border-[1px] ${box.color} rounded-md flex items-center justify-center text-white font-bold shadow-lg cursor-pointer`}
+  className={`md:w-50 w-40 h-40 border-[1px] ${box.color} rounded-md flex items-center justify-center text-white font-bold shadow-lg cursor-pointer`}
   animate={{ 
     opacity: 1,               
     rotateY:360,       
