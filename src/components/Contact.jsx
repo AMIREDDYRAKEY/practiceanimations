@@ -24,15 +24,15 @@ const Contact = () => {
             </div>
        <motion.div
         className="bg-gray-800 p-8 rounded-2xl shadow-lg w-[100%] max-w-md text-white"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
+        initial={{ opacity: 1, X: 50 }}
+        animate={{ opacity: 1, x:[0,10,0]}}
+        transition={{ duration: 3, ease: "linear" ,repeat:Infinity}}
       >
         <motion.h2
           className="text-2xl font-bold text-pink-500 mb-6 text-center"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
+          transition={{ duration: 2, delay: 0.2 }}
         >
            Contact Us
         </motion.h2>

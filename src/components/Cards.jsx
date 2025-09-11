@@ -19,9 +19,9 @@ const Cards = () => {
           <motion.div
             key={index}
             className="bg-white p-10 rounded-xl shadow-lg text-center cursor-pointer"
-            initial={{ opacity: 0, y: 50 }}
+            initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
-            
+            transition={{duration:1,delay:index*0.5}}
             whileHover={{ scale: 1.6}}
           >
             <h3 className="text-2xl font-bold mb-2">{card.title}</h3>
