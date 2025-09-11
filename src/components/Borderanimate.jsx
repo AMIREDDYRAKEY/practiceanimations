@@ -14,7 +14,7 @@ const Borderanimate = () => {
       {boxes.map((box) => (
         <motion.div
   key={box.id}
-  className={`md:w-50 w-40 h-40 border-[1px] ${box.color} rounded-md flex items-center justify-center text-white font-bold shadow-lg cursor-pointer`}
+  className={`md:w-50 w-40 h-40 ml-[40px] border-[1px] ${box.color} rounded-md flex items-center justify-center text-white font-bold shadow-lg cursor-pointer`}
   animate={{ 
     opacity: 1,               
     rotateY:360,       

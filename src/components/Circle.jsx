@@ -7,7 +7,7 @@ const Circle = () => {
       {[1, 2, 3,4,5,6].map((circles, i) => (
         <motion.div
           key={i}
-          className="w-16 h-16 rounded-full bg-green-500"
+          className="md:w-16 w-[20px] h-[20px] md:h-16 rounded-full bg-green-500"
           animate={{ scale: [1, 1.5, 1] }}
           transition={{
             duration: 1.5,
