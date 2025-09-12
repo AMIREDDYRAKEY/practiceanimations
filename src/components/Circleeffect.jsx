@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Circleeffect = () => {
   return (
-    <div className="flex gap-10 h-[300px] justify-around mt-[150px] ">
+    <div className="lg:flex lg:flex-row flex flex-col justify-center items-center gap-10 h-[500px] lg:justify-around lg:mt-[150px] ">
       <motion.div
         animate={{
           scale: [1, 1, 2, 1, 1],
@@ -33,7 +33,7 @@ const Circleeffect = () => {
           repeat: Infinity,
           repeatDelay: 1,
         }}
-        className="border-2 h-[150px] w-[150px] bg-slate-100"
+        className="border-2 h-[150px] w-[150px] mt-10 bg-slate-100"
       />
     </div>
   );
