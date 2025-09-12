@@ -9,6 +9,7 @@ import Circle from './components/Circle';
 import Borderanimate from './components/Borderanimate';
 import Scroll from './components/Scroll';
 import Footer from './components/Footer';
+import Circleeffect from './components/Circleeffect';
 const App = () => {
  
 
@@ -21,6 +22,7 @@ const App = () => {
       <div><Scroll/></div>
        <div><Borderanimate/></div>
        <div><Circle/></div>
+        <div><Circleeffect/></div>
       <div><Contact/></div>
       <div><Footer/></div>
     </div>
